@@ -44,13 +44,21 @@ section {
     font-size: 1.7rem;
     box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.3);
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .btn:hover {
     letter-spacing: 0.1rem;
+    background: #f08080;
+    color: #fff;
+}
+
+span {
+    color: #f08080;
 }
 
 /* header */
+
 
 .heading {
     text-align: center;
@@ -375,8 +383,105 @@ section {
 
 /* about end */
 
+/* shop */
+
+.shop {
+    color: #eee;
+}
+
+.shop .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+    gap: 2rem;
+}
+
+.shop .box-container .box {
+    text-align: center;
+    background: #fff;
+    border: 0.2rem solid #222;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+.shop .box-container .box:hover .img img {
+    transform: scale(1.1) translateY(-8px);
+}
+
+.shop .box-container .box:hover .img .icons {
+    transform: translateX(0rem);
+}
+
+.shop .box-container .box .img {
+    position: relative;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.shop .box-container .box .img img {
+    height: 25rem;
+}
+
+.shop .box-container .box .img .icons {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    transform: translateX(-10rem);
+}
+
+.shop .box-container .box .img .icons a {
+    display: block;
+    height: 5rem;
+    width: 5rem;
+    line-height: 4.5rem;
+    font-size: 1.7rem;
+    color: #222;
+    border-radius: 0.2rem solid #222;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+}
+
+.shop .box-container .box .img .icons a:hover {
+    color: #fff;
+    background: #f08080;
+}
+
+.shop .box-container .box .content {
+    padding: 2rem;
+}
+
+.shop .box-container .box .content a {
+    color: #222;
+}
+
+.shop .box-container .box .content a:hover {
+    color: #fff;
+}
+
+.shop .box-container .box .content h3 {
+    font-size: 2rem;
+    color: #222;
+    padding-bottom: 0.5rem;
+    font-weight: normal;
+}
+
+.shop .box-container .box .content .price {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #f08080;
+}
+
+.shop .box-container .box .content .price span {
+    color: #666;
+    font-size: 1.7rem;
+    text-decoration: line-through;
+}
 
 
+
+
+
+
+/* shop end */
 
 
 
