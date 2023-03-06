@@ -476,15 +476,65 @@ span {
     text-decoration: line-through;
 }
 
-
-
-
-
-
 /* shop end */
 
+/* message */
 
+.message {
+    background: url("../img/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 30px;
+}
 
+.message .content {
+    max-width: 40rem;
+    background: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+    margin: 10rem 0;
+}
+
+.message .content span {
+    font-size: 2rem;
+}
+
+.message .content h3 {
+    font-size: 3rem;
+    color: #222;
+    padding-top: 0.5rem;
+}
+
+.message .content p {
+    font-size: 1.4rem;
+    color: #666;
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+.message .content a {
+    color: #222;
+}
+
+.message .content a:hover {
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .message {
+        padding-top: 180px;
+        padding-bottom: 30px;
+    }
+    .message .content {
+        margin: 0 auto;
+    }
+}
+
+/* message end */
 
 
 
