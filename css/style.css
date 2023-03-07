@@ -42,7 +42,7 @@ section {
     padding: 1rem 3rem;
     color: #fff;
     font-size: 1.7rem;
-    box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.4);
     cursor: pointer;
     border-radius: 5px;
 }
@@ -478,9 +478,9 @@ span {
 
 /* shop end */
 
-/* message */
+/* banner */
 
-.message {
+.banner {
     background: url("../img/banner-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -490,7 +490,7 @@ span {
     margin-top: 30px;
 }
 
-.message .content {
+.banner .content {
     max-width: 40rem;
     background: #fff;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -499,42 +499,42 @@ span {
     margin: 10rem 0;
 }
 
-.message .content span {
+.banner .content span {
     font-size: 2rem;
 }
 
-.message .content h3 {
+.banner .content h3 {
     font-size: 3rem;
     color: #222;
     padding-top: 0.5rem;
 }
 
-.message .content p {
+.banner .content p {
     font-size: 1.4rem;
     color: #666;
     padding: 1rem 0;
     line-height: 2;
 }
 
-.message .content a {
+.banner .content a {
     color: #222;
 }
 
-.message .content a:hover {
+.banner .content a:hover {
     color: #fff;
 }
 
 @media (max-width: 767px) {
-    .message {
+    .banner {
         padding-top: 180px;
         padding-bottom: 30px;
     }
-    .message .content {
+    .banner .content {
         margin: 0 auto;
     }
 }
 
-/* message end */
+/* banner end */
 
 /* gallery */
 
@@ -614,9 +614,59 @@ span {
 
 /* gallery end */
 
+/* message */
 
+.message {
+    background: url("../img/message-bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 80px 2rem;
+    margin-top: 80px;
+}
 
+.message form {
+    margin: 2rem auto;
+    background: #fff;
+    text-align: center;
+    max-width: 40rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    padding: 3rem;
+}
 
+.message form h3 {
+    font-size: 3rem;
+    color: #222;
+}
+
+.message form .box {
+    width: 100%;
+    padding: 1.5rem 0;
+    margin: 0.7rem 0;
+    font-size: 1.6rem;
+    color: #666;
+    text-transform: none;
+    border-radius: 0.2rem solid #222;
+}
+
+.message form .box:focus {
+    border-color: #f08080;
+}
+
+.message form .btn {
+    color: #222;
+}
+
+.message form .btn:hover {
+    color: #fff;
+}
+
+.message form textarea {
+    height: 15rem;
+    resize: none;
+}
+
+/* message end */
 
 
 
