@@ -819,5 +819,111 @@ span {
 
 /* services end */
 
+/* footer */
+
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+}
+
+.footer .box-container .box h3 {
+    font-size: 2.2rem;
+    color: #222;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box .link {
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    color: #666;
+    display: block;
+}
+
+.footer .box-container .box .link:hover {
+    color: #f08080;
+}
+
+.footer .box-container .box .link i {
+    padding-right: 0.5rem;
+    color: #f08080;
+}
+
+.footer .box-container .box .link:hover i {
+    padding-right: 1rem;
+}
+
+.footer .box-container .box .share {
+    margin-top: 2rem;
+}
+
+.footer .box-container .box .share a {
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 1.7rem;
+    border-radius: 0.5rem;
+    background: #eee;
+    text-align: center;
+    color: #222;
+    margin-right: 0.5rem;
+}
+
+.footer .box-container .box .share a:hover {
+    color: #fff;
+    background: #f08080;
+}
+
+.footer .box-container .box p {
+    padding: 1rem 0;
+    font-size: 1.7rem;
+    color: #666;
+}
+
+.footer .box-container .box form .email {
+    border: 0.2rem solid #eba3a3;
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    text-transform: none;
+    color: #666;
+    margin: 1rem 0;
+    font-size: 1.6rem;
+}
+
+.footer .box-container .box form .btn {
+    color: #222;
+}
+
+.footer .box-container .box form .btn:hover {
+    color: #fff;
+}
+
+.footer .credit {
+    text-align: center;
+    padding: 1rem;
+    padding-top: 3rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    border-top: 0.2rem solid #222;
+    color: #666;
+}
+
+
+/* footer end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
