@@ -778,11 +778,46 @@ span {
 
 /* blogs end */
 
+/* services */
 
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+    gap: 2rem;
+    background: #f08080;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 
+.services .box {
+    text-align: center;
+    padding: 2rem;
+}
 
+.services .box i {
+    font-size: 10rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
 
+.services .box i:hover {
+    transform: rotateY(360deg);
+}
 
+.services .box h3 {
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.services .box p {
+    line-height: 2;
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+/* services end */
 
 
 
